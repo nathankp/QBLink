@@ -1,0 +1,13 @@
+QBLink Project 
+
+Description: This project contains a communication protocol that is to be implemented in the Spartan6 FPGAs found in the 
+HMB Daughtercard and the mRICH boards. It will enable the Spartan6 to communicate with the onboard TargetX's. This project 
+consists of the ByteLink protocol developed by Kurtis Nishimura and a wrapper written by Gary Varner. 
+
+Project Contributors:
++ Gary Varner(Current Developer) ~ Varner@phys.hawaii.edu | varner@hawaii.edu | gsvarner@gmail.com
++ Kurtis Nishimura (Legacy Firmware) ~ kurtisn@phys.hawaii.edu
++ Nathan Park (Version Control) ~ nathankp@hawaii.edu
+
+
+*Coming Soon: Implementation Instructions and Debugging Information*  
