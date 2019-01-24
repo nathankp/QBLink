@@ -185,7 +185,7 @@ begin
                v.state := RESET_S;
             end if;
             -- Otherwise, send data if we have it, or K_ZERO_C otherwise
-            if inputTxData8bValid = '0' then
+            if inputTxData8bValid = '0' then  
                v.txData8b := K_COM_ZERO_C;
                v.txDataK  := K_CHAR;
             else

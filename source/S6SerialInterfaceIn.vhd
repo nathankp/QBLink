@@ -59,7 +59,7 @@ architecture Behavioral of S6SerialInterfaceIn is
    signal fallingWord     : slv(4 downto 0);
    signal dataWord        : slv(9 downto 0);
    signal dataWordFlipped : slv(9 downto 0);
-
+  
    signal fifoEmpty : sl;
    signal fifoFull  : sl;
 
