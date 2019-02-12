@@ -41,13 +41,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1543964733" xil_pn:in_ck="-7287511329250020597" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1543964733">
+    <transform xil_pn:end_ts="1549412007" xil_pn:in_ck="-7287511329250020597" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1549412007">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="../QBLink/QBLink_TB.vhd"/>
       <outfile xil_pn:name="../source/BMD_definitions.vhd"/>
       <outfile xil_pn:name="../source/ByteLink.vhd"/>
@@ -78,19 +74,10 @@
       <outfile xil_pn:name="../QBLink/ipcore_dir/QBLtxFIFO.ngc"/>
       <outfile xil_pn:name="../QBLink/ipcore_dir/QBLtxFIFO.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1543964741" xil_pn:in_ck="-7785302233965658417" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1543964741">
+    <transform xil_pn:end_ts="1549412007" xil_pn:in_ck="-7287511329250020597" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1549412007">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="../QBLink/QBLink_TB.vhd"/>
-      <outfile xil_pn:name="../QBLink/cores/CMD_FIFO_w8r32.vhd"/>
-      <outfile xil_pn:name="../QBLink/cores/clockgen_bytelink.vhd"/>
-      <outfile xil_pn:name="../QBLink/cores/serializationFifo.vhd"/>
-      <outfile xil_pn:name="../QBLink/ipcore_dir/QBLtxFIFO.vhd"/>
       <outfile xil_pn:name="../source/BMD_definitions.vhd"/>
       <outfile xil_pn:name="../source/ByteLink.vhd"/>
       <outfile xil_pn:name="../source/Decode8b10b.vhd"/>
@@ -101,14 +88,10 @@
       <outfile xil_pn:name="../source/SyncBit.vhd"/>
       <outfile xil_pn:name="../source/UtilityPkg.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1547603013" xil_pn:in_ck="-7785302233965658417" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6102985082812415032" xil_pn:start_ts="1547603007">
+    <transform xil_pn:end_ts="1549412016" xil_pn:in_ck="-7785302233965658417" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6102985082812415032" xil_pn:start_ts="1549412007">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="QBLink_TB_beh.prj"/>
       <outfile xil_pn:name="QBLink_TB_isim_beh.exe"/>
@@ -117,11 +100,9 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1547603014" xil_pn:in_ck="-4045593759737997557" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="9085093483831829989" xil_pn:start_ts="1547603013">
+    <transform xil_pn:end_ts="1549412016" xil_pn:in_ck="-4045593759737997557" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="9085093483831829989" xil_pn:start_ts="1549412016">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="QBLink_TB_isim_beh.wdb"/>

@@ -65,8 +65,8 @@ Compiling architecture cmd_fifo_w8r32_a of entity CMD_FIFO_w8r32 [cmd_fifo_w8r32
 Compiling architecture behavioral of entity QBlink [qblink_default]
 Compiling architecture behavior of entity qblink_tb
 Time Resolution for simulation is 1ps.
-Waiting for 16 sub-compilation(s) to finish...
+Waiting for 26 sub-compilation(s) to finish...
 Compiled 72 VHDL Units
 Built simulation executable C:/Users/Kevin/Desktop/QBLink/ise/QBLink_TB_isim_beh.exe
-Fuse Memory Usage: 69852 KB
-Fuse CPU Usage: 1718 ms
+Fuse Memory Usage: 69744 KB
+Fuse CPU Usage: 1671 ms

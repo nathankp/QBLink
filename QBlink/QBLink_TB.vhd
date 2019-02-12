@@ -59,7 +59,7 @@ ARCHITECTURE behavior OF QBLink_TB IS
    --Inputs
    signal sstClk : std_logic := '0';
    signal rst : std_logic := '0';
-   signal rawSerialIn : std_logic := '0';
+   signal rawSerialIn : std_logic := '1';
    signal localWordIn : std_logic_vector(31 downto 0) := (others => '0');
    signal localWordInValid : std_logic := '0';
    signal localWordOutReq : std_logic := '0';
@@ -100,19 +100,19 @@ BEGIN
           trgLinkSynced => trgLinkSynced,
           serialClkLocked => serialClkLocked
         );
-	trainpart_QBLINK: QBlink PORT MAP(
-			 sstClk => sstClk,
-          rst => Trst,
-          rawSerialOut => rawSerialIn, --connect the serial input of uut to training partner output
-          rawSerialIn => rawserialOut, --connect the serial output of the uut to training partner input
-          localWordIn => TlocalWordIn, -- testbench will load Ttargetreg onto training partner wordIn
-          localWordInValid => TlocalWordInValid, --testbench enables listening to word inputs
-          localWordOut => Ttargetreg, --feed collected command from uut to testbench register
-          localWordOutValid => TlocalWordOutValid,   
-          localWordOutReq => TlocalWordOutReq,
-          trgLinkSynced => TtrgLinkSynced,
-          serialClkLocked => TserialClkLocked
-	);
+--	trainpart_QBLINK: QBlink PORT MAP(
+--			 sstClk => sstClk,
+--          rst => Trst,
+--          rawSerialOut => rawSerialIn, --connect the serial input of uut to training partner output
+--          rawSerialIn => rawserialOut, --connect the serial output of the uut to training partner input
+--          localWordIn => TlocalWordIn, -- testbench will load Ttargetreg onto training partner wordIn
+--          localWordInValid => TlocalWordInValid, --testbench enables listening to word inputs
+--          localWordOut => Ttargetreg, --feed collected command from uut to testbench register
+--          localWordOutValid => TlocalWordOutValid,   
+--          localWordOutReq => TlocalWordOutReq,
+--          trgLinkSynced => TtrgLinkSynced,
+--          serialClkLocked => TserialClkLocked
+--	);
 
    -- Clock process definitions
    sstClk_process :process

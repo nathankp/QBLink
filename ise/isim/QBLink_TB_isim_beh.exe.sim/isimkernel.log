@@ -2,27 +2,9 @@ Command line:
    QBLink_TB_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  54471
+     -socket  62723
 
-Tue Jan 15 15:43:40 2019
+Tue Feb 05 14:13:44 2019
 
 
- Elaboration Time: 0.390625 sec
-
- Current Memory Usage: 5700.94 Meg
-
- Total Signals          : 5426
- Total Nets             : 13851
- Total Signal Drivers   : 2527
- Total Blocks           : 301
- Total Primitive Blocks : 176
- Total Processes        : 1288
- Total Traceable Variables  : 2928
- Total Scalar Nets and Variables : 22289
-
- Total Simulation Time: 2.4375 sec
-
- Current Memory Usage: 4914.48 Meg
-
-Tue Jan 22 15:38:15 2019
-
+ Elaboration Time: 0.4375 sec
