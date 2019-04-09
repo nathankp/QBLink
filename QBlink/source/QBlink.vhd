@@ -2,6 +2,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use ieee.std_logic_arith.all;
 use ieee.std_logic_unsigned.all;
+use work.all;
 use work.UtilityPkg.all;
 library UNISIM;
 use UNISIM.VComponents.all;

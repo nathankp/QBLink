@@ -31,7 +31,7 @@ type QArray    is array (NRAMCH+2  downto 0) of integer;
 
 type trig_buffer is array (1 downto 0) of std_logic_vector(4 downto 0);
 
-------------------declearations for WaveformPedsubDSP---------------------------------------------
+------------------declarations for WaveformPedsubDSP---------------------------------------------
 constant NCHPerTX : integer :=  16;
 constant NSamplesPerWin : integer :=  32;  
 constant NWin : integer :=  4; -- number of waveform windows to be peroccessed in the FPGA
