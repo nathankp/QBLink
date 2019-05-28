@@ -19,13 +19,16 @@ package UtilityPkg is
    subtype sl is std_logic;
    subtype slv is std_logic_vector;
    -- Useful array types
+	type word24Array is array (natural range <>) of slv(23 downto 0);
+	type word5Array is array (natural range <>) of slv(4 downto 0);
    type Word8Array  is array (natural range <>) of slv( 7 downto 0);
    type Word9Array  is array (natural range <>) of slv( 8 downto 0);
    type Word10Array is array (natural range <>) of slv( 9 downto 0);
    type Word13Array is array (natural range <>) of slv(12 downto 0);
    type Word16Array is array (natural range <>) of slv(15 downto 0);
-   type Word32Array is array (natural range <>) of slv(31 downto 0);
-
+   type Word32Array is array (natural range <>) of slv(31 downto 0);	
+	
+	
    -----------------------
    -- Function prototypes
    -----------------------

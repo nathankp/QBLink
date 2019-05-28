@@ -27,7 +27,7 @@ entity QBlink is
 		
       -- Status bits out
       trgLinkSynced     : out sl;
-      serialClkLocked   : out sl
+      serialClkLocked   : out sl :='0'
    );
 end QBlink;
 

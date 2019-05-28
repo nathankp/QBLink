@@ -74,8 +74,8 @@ architecture rtl of ByteLink is
    signal rxCodeErr  : sl;
    signal rxDispErr  : sl;
    
-   signal txData10   : slv(9 downto 0);
-   signal txDisp     : sl;
+   signal txData10   : slv(9 downto 0) := (others => '0');
+   signal txDisp     : sl := '0';
 
 
    signal inputTxData8b      : slv(7 downto 0);

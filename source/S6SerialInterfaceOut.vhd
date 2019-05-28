@@ -78,7 +78,7 @@ begin
       -- None for now
       
       -- State machine 
-      case(r.state) is 
+	      case(r.state) is 
          when RESET_S =>
             v.bitCount := (others => '0');
             if (fifoRdValid = '1') then
