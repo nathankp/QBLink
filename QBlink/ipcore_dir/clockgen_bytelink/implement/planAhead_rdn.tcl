@@ -47,7 +47,7 @@
 # PART OF THIS FILE AT ALL TIMES.
 # 
 
-set device xc6slx4tqg144-2
+set device xc6slx150tfgg676-3
 set projName clockgen_bytelink
 set design clockgen_bytelink
 set projDir [file dirname [info script]]

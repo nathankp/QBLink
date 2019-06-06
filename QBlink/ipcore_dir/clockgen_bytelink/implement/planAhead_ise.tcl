@@ -50,7 +50,7 @@
 set projDir [file dirname [info script]]
 set projName clockgen_bytelink
 set topName clockgen_bytelink_exdes
-set device xc6slx4tqg144-2
+set device xc6slx150tfgg676-3
 
 create_project $projName $projDir/results/$projName -part $device
 
