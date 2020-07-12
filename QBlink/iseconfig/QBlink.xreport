@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-05-15T12:21:23</DateModified>
+  <DateModified>2020-07-10T09:53:08</DateModified>
   <ModuleName>QBlink</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Kevin/Desktop/HMB/QBLink/QBlink/iseconfig/QBlink.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Kevin/Desktop/HMB/QBLink/ise</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/Kevin/Desktop/HMB-FW/QBLink/QBlink/iseconfig/QBlink.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Kevin/Desktop/HMB-FW/QBLink/ise\</ImplementationReportsDirectory>
   <DateInitialized>2019-05-15T12:21:23</DateInitialized>
   <EnableMessageFiltering>true</EnableMessageFiltering>
  </header>
